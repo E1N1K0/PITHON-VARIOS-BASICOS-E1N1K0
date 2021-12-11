@@ -1,5 +1,18 @@
-#Separar palabras de la lista
+#Separar palabras de la lista:
 def sep_pal_lista(words): 
     return words.split()    
- 
+
+#Ejecucion: 
 sep_pal_lista("Hola ola ula 1")
+
+#________________________________________________________________________________
+#Descomponer cadena en lista a en n caracteres por elemento:
+def entero(a: int) -> int:
+    n = 2                                                #cantidad de caracteres por elemento en la lista.
+    separa = [a[i:i+n] for i in range(0, len(a), n)] 
+    return separa
+    
+#Ejecución:
+entero('Hola como estas?')
+#________________________________________________________________________________
+
