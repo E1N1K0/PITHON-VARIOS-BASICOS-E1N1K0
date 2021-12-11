@@ -1,18 +1,27 @@
 #Separar palabras de la lista:
 def sep_pal_lista(words): 
-    return words.split()    
+    return words.split()                                                   Devuelve: el resultado de la función: 
 
-#Ejecucion: 
+#Ejecución: 
 sep_pal_lista("Hola ola ula 1")
-
 #________________________________________________________________________________
-#Descomponer cadena en lista a en n caracteres por elemento:
-def entero(a: int) -> int:
-    n = 2                                                #cantidad de caracteres por elemento en la lista.
-    separa = [a[i:i+n] for i in range(0, len(a), n)] 
-    return separa
-    
+#Descomponer cadena (de texto) en lista a en n caracteres por elemento:
+
+def entero(texto, n):                                                      #Define la funcion: dado un texto y n caracteres por elemento.
+    separa = [texto[i:i+n] for i in range(0, len(texto), n)]               #Incluye espacios!
+    return separa                                                          #Devuelve: el resultado de la función: como el resultado de la ecuacion separa
+
 #Ejecución:
-entero('Hola como estas?')
+entero('Ingresa cadena (texto) a separar: ', 5)                            #texto = input('Ingresa cadena (texto) a separar: ')
+#________________________________________________________________________________
+#Determina si hay numeros o Cuenta la cantidad de numeros en un texto:
+
+def cuantos_hay(words: str):                                               #Define la funcion: dado un texto.
+    b = [i for i in words.split() if i.isnumeric() == True]                #Genera lista si hay numeros dentro del texto. 
+    print('Hay ',len(b),' numeros.', sep='')                               #Cuenta cantidad de numeros en el texto (con len).
+    return False if len(b) == 0 else True                                  #Devuelve: el resultado de la función: Si es vacio (no identifica numeros) es False.
+
+#Ejecución:
+cuantos_hay("He jo ki 99 lo 83 hola j98p")
 #________________________________________________________________________________
 
