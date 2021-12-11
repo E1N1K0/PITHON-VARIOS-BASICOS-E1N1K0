@@ -1,0 +1,5 @@
+#Separar palabras de la lista
+def sep_pal_lista(words): 
+    return words.split()    
+ 
+sep_pal_lista("Hola ola ula 1")
