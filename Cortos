@@ -33,8 +33,8 @@ cuantos_hay("He jo ki 99 lo 83 hola j98p")                                 #Ejec
 def lista_n_elementos(texto):                                              #Define la funcion: Dado un texto.
     b = texto.split()                                                      #Separa
     n = 3                                                                  #Numero de elementos
-    c = [b[i:i+n] for i in range(0, len(b), n)]                            #Genere lista de a n elementos. Puedo quiarle n si quiero que avance el segundo array desde el segundo elemento.
+    c = [b[i:i+n] for i in range(0, len(b), n)]                            #Ecuación: Genere lista de a n elementos. Puedo quiarle n si quiero que avance el segundo array desde el segundo elemento.
     
-    return c
+    return c                                                               #Devuelve: el resultado de la función.
 
 lista_n_elementos("Hola que ac tu ahi lo ves 09 ")                         #Ejecuta: Requiere un texto.
