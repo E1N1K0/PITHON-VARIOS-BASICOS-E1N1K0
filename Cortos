@@ -1,27 +1,40 @@
+INICE:
 #Separar palabras de la lista:
-def sep_pal_lista(words): 
-    return words.split()                                                   Devuelve: el resultado de la función: 
+#Descomponer cadena (de texto) en lista a en n caracteres por elemento:
+#Determinar si hay numeros o determinar la cantidad de numeros en un texto:
+#Dado un texto: genere lista de a n elementos(palabras):
+
+#________________________________________________________________________________
+#Separar palabras de la lista:
+def sep_pal_lista(words):                                                  #Define la funcion: Dado un texto. 
+    return words.split()                                                   #Devuelve: el resultado de la función: Palabras del texto, separadas.
 
 #Ejecución: 
-sep_pal_lista("Hola ola ula 1")
+sep_pal_lista("Hola ola ula 1")                                            #Ejecuta: Requiere un texto.
 #________________________________________________________________________________
 #Descomponer cadena (de texto) en lista a en n caracteres por elemento:
-
-def entero(texto, n):                                                      #Define la funcion: dado un texto y n caracteres por elemento.
-    separa = [texto[i:i+n] for i in range(0, len(texto), n)]               #Incluye espacios!
-    return separa                                                          #Devuelve: el resultado de la función: como el resultado de la ecuacion separa
+def entero(texto, n):                                                      #Define la funcion: Dado un texto y n caracteres por elemento.
+    separa = [texto[i:i+n] for i in range(0, len(texto), n)]               #Ecuación: Separa el texto en n caracteres por elemento. Incluye espacios!
+    return separa                                                          #Devuelve: el resultado de la ecuacion separa.
 
 #Ejecución:
-entero('Ingresa cadena (texto) a separar: ', 5)                            #texto = input('Ingresa cadena (texto) a separar: ')
+entero('Ingresa cadena (texto) a separar: ', 5)                            #Ejecuta: Requiere un texto.
 #________________________________________________________________________________
-#Determina si hay numeros o Cuenta la cantidad de numeros en un texto:
-
-def cuantos_hay(words: str):                                               #Define la funcion: dado un texto.
+#Determinar si hay numeros o determinar la cantidad de numeros en un texto:
+def cuantos_hay(words: str):                                               #Define la funcion: Dado un texto.
     b = [i for i in words.split() if i.isnumeric() == True]                #Genera lista si hay numeros dentro del texto. 
-    print('Hay ',len(b),' numeros.', sep='')                               #Cuenta cantidad de numeros en el texto (con len).
+    print('Hay ',len(b),' numeros.', sep='')                               #Ecuación: Cuenta cantidad de numeros en el texto (con len).
     return False if len(b) == 0 else True                                  #Devuelve: el resultado de la función: Si es vacio (no identifica numeros) es False.
 
 #Ejecución:
-cuantos_hay("He jo ki 99 lo 83 hola j98p")
+cuantos_hay("He jo ki 99 lo 83 hola j98p")                                 #Ejecuta: Requiere un texto.
 #________________________________________________________________________________
+#Dado un texto: genere lista de a n elementos(palabras):
+def lista_n_elementos(texto):                                              #Define la funcion: Dado un texto.
+    b = texto.split()                                                      #Separa
+    n = 3                                                                  #Numero de elementos
+    c = [b[i:i+n] for i in range(0, len(b), n)]                            #Genere lista de a n elementos. Puedo quiarle n si quiero que avance el segundo array desde el segundo elemento.
+    
+    return c
 
+lista_n_elementos("Hola que ac tu ahi lo ves 09 ")                         #Ejecuta: Requiere un texto.
