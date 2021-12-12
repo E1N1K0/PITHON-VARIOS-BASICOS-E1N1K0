@@ -93,7 +93,7 @@ def cuantos_hay(words: str):                                               #Defi
 #Ejecución:
 cuantos_hay("He jo ki 99 lo 83 hola j98p")                                 #Ejecuta: Requiere un texto.
 #________________________________________________________________________________
-#Detectar si cada caracter es digito o letra:
+#Detectar que cada caracter sea digito o letra:
 def que_es(text: str):
     a = ['es digit o alpha' if i.isdigit() == True or i.isalpha() == True else 'No es digit o alpha' for i in text]    #'es digit o alpha' se puede cambiar por True
     return a
