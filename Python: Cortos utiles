@@ -1,12 +1,11 @@
 INDICE:
 #Comprension de listas: Crearlas:
 #Comprension de listas: Ya creadas:
+#Dado un texto: genere lista de a n elementos(palabras):
 #Separar palabras de la lista:
 #Descomponer cadena (de texto) en lista a en n caracteres por elemento:
 #Determinar si hay numeros o determinar la cantidad de numeros en un texto:
-#Dado un texto: genere lista de a n elementos(palabras):
 #Detectar si cada caracter es digito o letra:
-
 #________________________________________________________________________________
 #Comprension de listas: Crearlas:
 #expresion   for elemento   in iterable 
@@ -60,6 +59,16 @@ def listae(l):
 #listad([1,2,3,4,5,6,7,8,9])   
 listae([1,2,3,4,5,6,7,8,9]) 
 #________________________________________________________________________________
+#Dado un texto: genere lista de a n elementos(palabras):
+def lista_n_elementos(texto):                                              #Define la funcion: Dado un texto.
+    b = texto.split()                                                      #Separa
+    n = 3                                                                  #Numero de elementos
+    c = [b[i:i+n] for i in range(0, len(b), n)]                            #Ecuación: Genere lista de a n elementos. Puedo quiarle n si quiero que avance el segundo array desde el segundo elemento.
+    return c                                                               #Devuelve: el resultado de la función.
+
+#Ejecución:
+lista_n_elementos("Hola que ac tu ahi lo ves 09 ")                         #Ejecuta: Requiere un texto.
+#________________________________________________________________________________
 #Separar palabras de la lista:
 def sep_pal_lista(words):                                                  #Define la funcion: Dado un texto. 
     return words.split()                                                   #Devuelve: el resultado de la función: Palabras del texto, separadas.
@@ -83,16 +92,6 @@ def cuantos_hay(words: str):                                               #Defi
 
 #Ejecución:
 cuantos_hay("He jo ki 99 lo 83 hola j98p")                                 #Ejecuta: Requiere un texto.
-#________________________________________________________________________________
-#Dado un texto: genere lista de a n elementos(palabras):
-def lista_n_elementos(texto):                                              #Define la funcion: Dado un texto.
-    b = texto.split()                                                      #Separa
-    n = 3                                                                  #Numero de elementos
-    c = [b[i:i+n] for i in range(0, len(b), n)]                            #Ecuación: Genere lista de a n elementos. Puedo quiarle n si quiero que avance el segundo array desde el segundo elemento.
-    return c                                                               #Devuelve: el resultado de la función.
-
-#Ejecución:
-lista_n_elementos("Hola que ac tu ahi lo ves 09 ")                         #Ejecuta: Requiere un texto.
 #________________________________________________________________________________
 #Detectar si cada caracter es digito o letra:
 def que_es(text: str):
