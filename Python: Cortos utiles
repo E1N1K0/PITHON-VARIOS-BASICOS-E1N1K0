@@ -3,6 +3,7 @@ INDICE:
 #Descomponer cadena (de texto) en lista a en n caracteres por elemento:
 #Determinar si hay numeros o determinar la cantidad de numeros en un texto:
 #Dado un texto: genere lista de a n elementos(palabras):
+#Detectar si cada caracter es digito o letra:
 
 #________________________________________________________________________________
 #Separar palabras de la lista:
@@ -34,16 +35,17 @@ def lista_n_elementos(texto):                                              #Defi
     b = texto.split()                                                      #Separa
     n = 3                                                                  #Numero de elementos
     c = [b[i:i+n] for i in range(0, len(b), n)]                            #Ecuación: Genere lista de a n elementos. Puedo quiarle n si quiero que avance el segundo array desde el segundo elemento.
-    
     return c                                                               #Devuelve: el resultado de la función.
 
+#Ejecución:
 lista_n_elementos("Hola que ac tu ahi lo ves 09 ")                         #Ejecuta: Requiere un texto.
 #________________________________________________________________________________
 #Detectar si cada caracter es digito o letra:
 def que_es(text: str):
-    a = ['es digit o alpha' if i.isdigit() == True or i.isalpha() == True else 'No es digit o alpha' for i in text]
+    a = ['es digit o alpha' if i.isdigit() == True or i.isalpha() == True else 'No es digit o alpha' for i in text]    #'es digit o alpha' se puede cambiar por True
     return a
 
+#Ejecución:
 que_es('ab12?=')
 #________________________________________________________________________________
 
