@@ -38,3 +38,14 @@ def lista_n_elementos(texto):                                              #Defi
     return c                                                               #Devuelve: el resultado de la función.
 
 lista_n_elementos("Hola que ac tu ahi lo ves 09 ")                         #Ejecuta: Requiere un texto.
+#________________________________________________________________________________
+#Detectar si cada caracter es digito o letra:
+def que_es(text: str):
+    a = ['es digit o alpha' if i.isdigit() == True or i.isalpha() == True else 'No es digit o alpha' for i in text]
+    return a
+
+que_es('ab12?=')
+#________________________________________________________________________________
+
+
+
