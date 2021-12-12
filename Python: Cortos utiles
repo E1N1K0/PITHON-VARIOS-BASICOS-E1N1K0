@@ -5,7 +5,8 @@ INDICE:
 #Separar palabras de la lista:
 #Descomponer cadena (de texto) en lista a en n caracteres por elemento:
 #Determinar si hay numeros o determinar la cantidad de numeros en un texto:
-#Detectar si cada caracter es digito o letra:
+#Detectar que cada caracter sea digito o letra:
+#Probabilidades Normales:
 #________________________________________________________________________________
 #Comprension de listas: Crearlas:
 #expresion   for elemento   in iterable 
