@@ -1,10 +1,63 @@
 INDICE:
+#Comprension de listas: Crearlas:
+#Comprension de listas: Ya creadas:
 #Separar palabras de la lista:
 #Descomponer cadena (de texto) en lista a en n caracteres por elemento:
 #Determinar si hay numeros o determinar la cantidad de numeros en un texto:
 #Dado un texto: genere lista de a n elementos(palabras):
 #Detectar si cada caracter es digito o letra:
 
+#________________________________________________________________________________
+#Comprension de listas: Crearlas:
+#expresion   for elemento   in iterable 
+
+def listaz(): 
+    m = [n*'+' for n in range(1,5,1)] #range(inicio, final, paso): #se puede quitar *'+'
+    return m
+
+listaz()
+#________________________________________________________________________________
+#Comprension de listas: Ya creadas:
+
+#a = []
+
+#Si no hay lista usar range(inicio, final, paso):
+def listaz(): 
+    m = [n for n in range(1,11,2)]
+    return m
+
+#Recorrer toda la lista l:
+def listaa(l): 
+    for i in l:
+        a.append(i**3)
+    return a
+
+#Recorrer toda la lista l:
+def listab(l):
+    b = [n for n in l]
+    return b
+
+#Recorrer toda la lista l (solo pares):
+def listac(l):
+    c = [n for n in l if n%2==0]
+    return c
+
+#Recorrer toda la lista l (solo pares y divisibles por 3):
+def listad(l):
+    d = [n for n in l if n%2==0 and n%3==0]
+    return d
+
+#Con else cambia:
+def listae(l):
+    e = [n if n%2==0 else n**2 for n in l]
+    return e
+
+
+#listaa([1,2,3,4,5,6,7,8,9])
+#listab([1,2,3,4,5,6,7,8,9])
+#listac([1,2,3,4,5,6,7,8,9])
+#listad([1,2,3,4,5,6,7,8,9])   
+listae([1,2,3,4,5,6,7,8,9]) 
 #________________________________________________________________________________
 #Separar palabras de la lista:
 def sep_pal_lista(words):                                                  #Define la funcion: Dado un texto. 
