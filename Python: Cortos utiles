@@ -53,12 +53,18 @@ def listae(l):
     e = [n if n%2==0 else n**2 for n in l]
     return e
 
+#Multiplicar lista por si misma:
+def listaf(l):
+    f = [(x,y) for x in l for y in l]
+    return f
+
 #Ejecución:
 #listaa([1,2,3,4,5,6,7,8,9])
 #listab([1,2,3,4,5,6,7,8,9])
 #listac([1,2,3,4,5,6,7,8,9])
 #listad([1,2,3,4,5,6,7,8,9])   
-listae([1,2,3,4,5,6,7,8,9]) 
+#listae([1,2,3,4,5,6,7,8,9]) 
+listaf([1,2,3,4,5,6,7,8,9])
 #________________________________________________________________________________
 #Dado un texto: genere lista de a n elementos(palabras):
 def lista_n_elementos(texto):                                              #Define la funcion: Dado un texto.
