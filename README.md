@@ -1,10 +1,9 @@
-# PITHON-VARIOS-BASICOS-E1N1K0:
-
 ## ABSTRACT = RESUMEN:
   Different short codes that I have used and found them interesting when solving challenges.<br>
   Distintos codigos cortos que he utilizado y me parecieron interesantes al resolver desafios.
 
-## INDEX = INDICE:
+
+## PITHON-VARIOS-BASICOS-E1N1K0:
 - The zen of python.
 - Comprension de listas: Crearlas.
 - Comprension de listas: Ya creadas.
@@ -15,6 +14,10 @@
 - Detectar que cada caracter sea digito o letra.
 - Binary search.
 - Probabilidades Normales.
+
+
+## PYTHON CODE CHALENGE:
 - Encontrar factores primos.
 - Palindromos.
 - Ordenar palabras alfabeticamente.
+- Encontrar todos los items de una lista.
