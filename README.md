@@ -1,9 +1,13 @@
-## ABSTRACT = RESUMEN:
+# PITHON-VARIOS-BASICOS-E1N1K0
+
+### ABSTRACT = RESUMEN:
   Different short codes that I have used and found them interesting when solving challenges.<br>
   Distintos codigos cortos que he utilizado y me parecieron interesantes al resolver desafios.
 
 
-## CORTOS UTILES I:
+## INDEX = INDICE:
+
+### CORTOS UTILES I:
 - The zen of python.
 - Comprension de listas: Crearlas.
 - Comprension de listas: Ya creadas.
@@ -14,7 +18,7 @@
 - Detectar que cada caracter sea digito o letra.
 - Probabilidades Normales.
 
-## CORTOS UTILES II:
+### CORTOS UTILES II:
 - Crear texto desde archivo csv.
 - Binary search.
 
@@ -23,3 +27,8 @@
 - Palindromos.
 - Ordenar palabras alfabeticamente.
 - Encontrar todos los items de una lista.
+
+
+## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
+   Pueden escribirme a e1n1k0programa@gmail.com<br><br>
+	 You can contact me at e1n1k0programa@gmail.com
