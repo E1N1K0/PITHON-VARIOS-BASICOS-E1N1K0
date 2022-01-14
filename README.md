@@ -3,7 +3,7 @@
   Distintos codigos cortos que he utilizado y me parecieron interesantes al resolver desafios.
 
 
-## PITHON-VARIOS-BASICOS-E1N1K0:
+## CORTOS UTILES I:
 - The zen of python.
 - Comprension de listas: Crearlas.
 - Comprension de listas: Ya creadas.
@@ -12,9 +12,11 @@
 - Descomponer cadena (de texto) en lista a en n caracteres por elemento.
 - Determinar si hay numeros o determinar la cantidad de numeros en un texto.
 - Detectar que cada caracter sea digito o letra.
-- Binary search.
 - Probabilidades Normales.
 
+## CORTOS UTILES II:
+- Crear texto desde archivo csv.
+- Binary search.
 
 ## PYTHON CODE CHALENGE:
 - Encontrar factores primos.
