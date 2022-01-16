@@ -22,12 +22,6 @@
 - Crear texto desde archivo csv.
 - Binary search.
 
-## PYTHON CODE CHALENGE:
-- Encontrar factores primos.
-- Palindromos.
-- Ordenar palabras alfabeticamente.
-- Encontrar todos los items de una lista.
-
 
 ## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
    Pueden escribirme a e1n1k0programa@gmail.com<br><br>
