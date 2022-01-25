@@ -16,11 +16,17 @@
 - Descomponer cadena (de texto) en lista a en n caracteres por elemento.
 - Determinar si hay numeros o determinar la cantidad de numeros en un texto.
 - Detectar que cada caracter sea digito o letra.
-- Probabilidades Normales.
 
 ### CORTOS UTILES II:
 - Crear texto desde archivo csv.
+- Subir archivo a csv.
 - Binary search.
+
+
+### CORTOS UTILES III:
+- Probabilidad Normal.
+- Probabilidad Weibull (paramentos forma y escala).
+
 
 
 ## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
