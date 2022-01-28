@@ -18,9 +18,10 @@
 - Detectar que cada caracter sea digito o letra.
 
 ### CORTOS UTILES II:
-- Crear texto desde archivo csv.
-- Subir archivo a csv.
 - Binary search.
+- Crear texto desde archivo csv.
+- Generar archivo con resultados a csv.
+
 
 
 ### CORTOS UTILES III:
