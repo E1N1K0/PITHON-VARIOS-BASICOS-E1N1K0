@@ -29,6 +29,11 @@
 - Probabilidad Weibull (paramentos forma y escala).
 
 
+### CORTOS UTILES IV:
+- Graficar funcion.
+- Limpiar data.
+
+
 
 ## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
    Pueden escribirme a e1n1k0programa@gmail.com<br><br>
