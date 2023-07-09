@@ -1,4 +1,4 @@
-# PITHON-VARIOS-BASICOS-E1N1K0
+# PYTHON-VARIOS-BASICOS-E1N1K0
 
 ### ABSTRACT = RESUMEN:
   Different short codes that I have used and found them interesting when solving challenges.<br>
